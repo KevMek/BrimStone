@@ -1,0 +1,12 @@
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class StartMenu : MonoBehaviour
+{
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+   public void StartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        Debug.Log("it's working");
+    }
+}
