@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2950967834528103275}
   - component: {fileID: 5747735107633081381}
   - component: {fileID: 2218752449749064393}
+  - component: {fileID: 5675760934298914155}
   m_Layer: 5
   m_Name: Brick
   m_TagString: Untagged
@@ -120,3 +121,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &5675760934298914155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8127357616566118939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26e8d2a2aa9bed243ade635a1502d53b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -47,5 +47,5 @@ public class MenuPause : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
         Debug.Log("I'm in the menu");
-    }
+    }    
 }
