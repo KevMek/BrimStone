@@ -7,6 +7,8 @@ public class Debuging : MonoBehaviour
     {
         GameObject brickPrefab = Resources.Load<GameObject>("Prefabs/Brick");
         GameObject rockPrefab = Resources.Load<GameObject>("Prefabs/Rock");
+        GameObject orePrefab = Resources.Load<GameObject>("Prefabs/Ore");
+
 
         GameObject BackgroundInventory = GameObject.Find("BackgroundInventory");
         GameObject CraftInventory = GameObject.Find("CraftInventory");
@@ -23,6 +25,9 @@ public class Debuging : MonoBehaviour
         InventoryManager.SpawnPrefabOnCanvas(BackgroundInventory, rockPrefab);
         InventoryManager.SpawnPrefabOnCanvas(CraftInventory, rockPrefab);
         InventoryManager.SpawnPrefabOnCanvas(CraftInventory, rockPrefab);
+        InventoryManager.SpawnPrefabOnCanvas(BackgroundInventory, orePrefab);
+        InventoryManager.SpawnPrefabOnCanvas(BackgroundInventory, orePrefab);
+        InventoryManager.SpawnPrefabOnCanvas(BackgroundInventory, orePrefab);
     }
 
     // Update is called once per frame

@@ -8,6 +8,12 @@ public class InventoryManager : MonoBehaviour
     public static int FindAvaliableSlot(GameObject canvas)
     {
         int index = 0;
+        if (canvas.transform.childCount == 0)
+        {
+
+            Debug.Log("Canvas has not childs");
+            return -1;
+        }
         Transform inventory = canvas.transform.GetChild(0);
         int childCount = inventory.childCount;
         for (int i = 0; i < childCount; i++)
@@ -84,20 +90,8 @@ public class InventoryManager : MonoBehaviour
                     content[1]++;
                     break;
 
-                case "Iron":
+                case "Ore":
                     content[2]++;
-                    break;
-
-                case "Silver":
-                    content[3]++;
-                    break;
-
-                case "Gold":
-                    content[4]++;
-                    break;
-
-                case "Diamond":
-                    content[5]++;
                     break;
 
                 default:
@@ -105,10 +99,8 @@ public class InventoryManager : MonoBehaviour
             }
             
         }
+
+
         
-        
-        Debug.Log($"item {0} : {content[0]}");
-        Debug.Log($"item {1} : {content[1]}");
-        Debug.Log($"item {2} : {content[2]}");
     }
 }

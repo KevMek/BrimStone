@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 50f5a447a4db17340817c2f388df46c2
+guid: 7da337916e9280a46b02be1eae4ab67a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3177163398834963143
-    second: FlatWeaponIcons_16_0
+      213: -6650896090810708382
+    second: FlatWeaponIcons_26_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FlatWeaponIcons_16_0
+      name: FlatWeaponIcons_26_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 93db11bd8b278e3d0800000000000000
-      internalID: -3177163398834963143
+      spriteID: 26e813d4e3543b3a0800000000000000
+      internalID: -6650896090810708382
       vertices: []
       indices: 
       edges: []
@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FlatWeaponIcons_26_0: -6650896090810708382
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

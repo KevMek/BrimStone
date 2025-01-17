@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FlatWeaponIcons_17_0: 3229058315653162152
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
