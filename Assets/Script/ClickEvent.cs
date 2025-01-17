@@ -13,18 +13,25 @@ public class ClickEvent : MonoBehaviour, IPointerClickHandler
         {
             
             Transform parent = transform.parent.parent.parent;
+            bool successefulSwap = false;
             if (parent.name == "BackgroundInventory")
             {
                 GameObject CraftInventory = GameObject.Find("CraftInventory");
-                InventoryManager.SpawnPrefabOnCanvas(CraftInventory, gameObject, 0);
+                successefulSwap = InventoryManager.SpawnPrefabOnCanvas(CraftInventory, gameObject);
+
             }
             else if (parent.name == "CraftInventory")
             {
                 GameObject BackgroundInventory = GameObject.Find("BackgroundInventory");
-                InventoryManager.SpawnPrefabOnCanvas(BackgroundInventory, gameObject, 0);
+                successefulSwap = InventoryManager.SpawnPrefabOnCanvas(BackgroundInventory, gameObject);
             }
             
-           Destroy(gameObject);
+           if (successefulSwap)
+            {
+                Destroy(gameObject);
+            }
+           
+           
         }
     }
 }

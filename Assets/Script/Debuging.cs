@@ -12,10 +12,17 @@ public class Debuging : MonoBehaviour
         GameObject CraftInventory = GameObject.Find("CraftInventory");
         GameObject Orders = GameObject.Find("Orders");
 
-        InventoryManager.SpawnPrefabOnCanvas(BackgroundInventory, brickPrefab, 0);
-        InventoryManager.SpawnPrefabOnCanvas(BackgroundInventory, rockPrefab, 1);
-        InventoryManager.SpawnPrefabOnCanvas(CraftInventory, rockPrefab, 0);
-        InventoryManager.SpawnPrefabOnCanvas(Orders, brickPrefab, 0);
+        InventoryManager.SpawnPrefabOnCanvas(BackgroundInventory, brickPrefab);
+        InventoryManager.SpawnPrefabOnCanvas(BackgroundInventory, rockPrefab);
+        InventoryManager.SpawnPrefabOnCanvas(CraftInventory, rockPrefab);
+        InventoryManager.SpawnPrefabOnCanvas(Orders, brickPrefab);
+        InventoryManager.SpawnPrefabOnCanvas(BackgroundInventory, brickPrefab);
+        InventoryManager.SpawnPrefabOnCanvas(BackgroundInventory, rockPrefab);
+        InventoryManager.SpawnPrefabOnCanvas(CraftInventory, rockPrefab);
+        InventoryManager.SpawnPrefabOnCanvas(BackgroundInventory, brickPrefab);
+        InventoryManager.SpawnPrefabOnCanvas(BackgroundInventory, rockPrefab);
+        InventoryManager.SpawnPrefabOnCanvas(CraftInventory, rockPrefab);
+        InventoryManager.SpawnPrefabOnCanvas(CraftInventory, rockPrefab);
     }
 
     // Update is called once per frame
